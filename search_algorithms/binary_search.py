@@ -21,6 +21,7 @@ def binary_search(search_array, start_index, last_index, search_val):
         # Element is not present in the array
         return -1
     
+
 # BINARY SEARCH WITH ITERATIVE APPROACH
 def binary_search_iterative(search_value, search_array):
     start_index, last_index = 0, len(search_array)-1
