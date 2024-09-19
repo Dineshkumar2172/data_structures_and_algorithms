@@ -32,7 +32,7 @@ def binary_search_iterative(search_value, search_array):
         
         elif search_array[middle_index] > search_value:
             last_index = middle_index-1
-            
+
         elif search_array[middle_index] < search_val:
             start_index = middle_index+1
 
